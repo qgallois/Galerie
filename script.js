@@ -2,10 +2,8 @@
 {
   var photos = document.getElementById('galerie_mini') ;
   var liens = photos.getElementsByTagName('a') ;
-  var big_photo = document.getElementById('big_pictM') ;
-  var big_photo = document.getElementById('big_pictA') ;
-  var big_photo = document.getElementById('big_pictN') ;
-  var big_photo = document.getElementById('big_pictP') ;
+  var big_photo = document.getElementById('big_pict') ;
+ 
   var titre_photo = document.getElementById('photo').getElementsByTagName('dt')[0] ;
   for (var i = 0 ; i < liens.length ; ++i) {
     liens[i].onclick = function() {
